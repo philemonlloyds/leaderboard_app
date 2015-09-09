@@ -3,7 +3,7 @@ if(Meteor.isClient){
 
     Template.leaderboard.helpers({
       'player': function(){
-        return PlayersList.find();
+        return PlayersList.find({},{sort:{score:-1,name: 1}})
       },
       'selectedClass':function(){
         var playerId = this._id;
@@ -11,7 +11,10 @@ if(Meteor.isClient){
         if (playerId==selectedPlayer){
             return 'selected'
         }
-
+      },
+      'showSelectedPlayer':function(){
+        var selectedPlayer = Session.get('selectedPlayer');
+        return PlayersList.findOne(selectedPlayer)
       }
     });
 

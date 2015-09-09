@@ -20,7 +20,13 @@ Template["leaderboard"] = new Template("Template.leaderboard", (function() {
     }), ":", Blaze.View("lookup:score", function() {
       return Spacebars.mustache(view.lookup("score"));
     })), "\n    " ];
-  }), "\n  ") ];
+  }), "\n  "), "\n  ", Blaze.If(function() {
+    return Spacebars.call(view.lookup("showSelectedPlayer"));
+  }, function() {
+    return [ "\n", HTML.LI("Selected Player: ", Blaze.View("lookup:showSelectedPlayer.name", function() {
+      return Spacebars.mustache(Spacebars.dot(view.lookup("showSelectedPlayer"), "name"));
+    })), "\n" ];
+  }) ];
 }));
 
 })();
