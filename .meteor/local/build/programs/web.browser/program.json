@@ -400,18 +400,18 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/template.new_leaderboard.js?dcdcf19f2a312037508e47086fb6cdee37fc261b",
-      "size": 1881,
-      "hash": "dcdcf19f2a312037508e47086fb6cdee37fc261b"
+      "url": "/template.new_leaderboard.js?11c78d9ec348b10873ba814794c655f1619e2dd1",
+      "size": 1943,
+      "hash": "11c78d9ec348b10873ba814794c655f1619e2dd1"
     },
     {
       "path": "app/new_leaderboard.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/new_leaderboard.js?2cb38a1783bced169a0e8b8289e87922c99d5a47",
-      "size": 1358,
-      "hash": "2cb38a1783bced169a0e8b8289e87922c99d5a47"
+      "url": "/new_leaderboard.js?36b6dab352239241880f53438137c6a361f2a257",
+      "size": 1505,
+      "hash": "36b6dab352239241880f53438137c6a361f2a257"
     },
     {
       "path": "7c1740bc2244269d8c3bbb55b992b5844282dfa4.css",

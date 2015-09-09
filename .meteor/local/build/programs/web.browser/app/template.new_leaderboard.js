@@ -8,7 +8,7 @@ Meteor.startup(Template.body.renderToDocument);
 Template.__checkName("leaderboard");
 Template["leaderboard"] = new Template("Template.leaderboard", (function() {
   var view = this;
-  return [ Spacebars.include(view.lookupTemplate("addPlayerForm")), HTML.Raw('\n  <input type="button" class="increment" value="Give 5 Points">\n  <input type="button" class="decrement" value="Take 5 Points">\n  '), HTML.UL("\n    ", Blaze.Each(function() {
+  return [ Spacebars.include(view.lookupTemplate("addPlayerForm")), HTML.Raw('\n  <input type="button" class="increment" value="Give 5 Points">\n  <input type="button" class="decrement" value="Take 5 Points">\n  <input type="button" class="remove" value="Remove Player">\n  '), HTML.UL("\n    ", Blaze.Each(function() {
     return Spacebars.call(view.lookup("player"));
   }, function() {
     return [ "\n    ", HTML.LI({

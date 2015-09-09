@@ -34,6 +34,10 @@ if(Meteor.isClient){
         event.preventDefault();
         var playerNameVar = event.target.playerName.value;
         PlayersList.insert({name: playerNameVar, score:0});
+      },
+      'click .remove':function(){
+        var selectedPlayer = Session.get('selectedPlayer');
+        PlayersList.remove(selectedPlayer);
       }
     });
 }
