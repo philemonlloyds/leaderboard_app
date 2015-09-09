@@ -409,9 +409,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/new_leaderboard.js?c2e184d448010d8345127ffbaf10ce04b6d355e3",
-      "size": 497,
-      "hash": "c2e184d448010d8345127ffbaf10ce04b6d355e3"
+      "url": "/new_leaderboard.js?6ad49ed006287eedd4da9e77a715a36b73d64ecf",
+      "size": 147,
+      "hash": "6ad49ed006287eedd4da9e77a715a36b73d64ecf"
     },
     {
       "path": "20ae2c8d51b2507244e598844414ecdec2615ce3.css",
