@@ -233,59 +233,37 @@
       "hash": "c3059a78bb200b171099fc4fa1a9345101790ddb"
     },
     {
-      "path": "packages/webapp.js",
+      "path": "packages/npm-bcrypt.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/webapp.js?e1be090051b82f046484dccc2de7d747e50c7328",
-      "sourceMap": "packages/webapp.js.map",
-      "sourceMapUrl": "/packages/e1be090051b82f046484dccc2de7d747e50c7328.map",
-      "size": 3106,
-      "hash": "e1be090051b82f046484dccc2de7d747e50c7328"
+      "url": "/packages/npm-bcrypt.js?4b480ddc27b097ce17a5976c52fda305f2ec634d",
+      "sourceMap": "packages/npm-bcrypt.js.map",
+      "sourceMapUrl": "/packages/4b480ddc27b097ce17a5976c52fda305f2ec634d.map",
+      "size": 1295,
+      "hash": "4b480ddc27b097ce17a5976c52fda305f2ec634d"
     },
     {
-      "path": "packages/deps.js",
+      "path": "packages/localstorage.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/deps.js?504589e1e9585dec8f9f6094e5a87b22de3783a1",
-      "sourceMap": "packages/deps.js.map",
-      "sourceMapUrl": "/packages/504589e1e9585dec8f9f6094e5a87b22de3783a1.map",
-      "size": 1442,
-      "hash": "504589e1e9585dec8f9f6094e5a87b22de3783a1"
+      "url": "/packages/localstorage.js?9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c",
+      "sourceMap": "packages/localstorage.js.map",
+      "sourceMapUrl": "/packages/9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c.map",
+      "size": 7092,
+      "hash": "9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c"
     },
     {
-      "path": "packages/reactive-dict.js",
+      "path": "packages/callback-hook.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/reactive-dict.js?1cb61826ceb23464171f17c2191c7e04a9b91508",
-      "sourceMap": "packages/reactive-dict.js.map",
-      "sourceMapUrl": "/packages/1cb61826ceb23464171f17c2191c7e04a9b91508.map",
-      "size": 21702,
-      "hash": "1cb61826ceb23464171f17c2191c7e04a9b91508"
-    },
-    {
-      "path": "packages/session.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/packages/session.js?daf192a7244079d45db32a6fc26ebc3881fc1aa3",
-      "sourceMap": "packages/session.js.map",
-      "sourceMapUrl": "/packages/daf192a7244079d45db32a6fc26ebc3881fc1aa3.map",
-      "size": 6491,
-      "hash": "daf192a7244079d45db32a6fc26ebc3881fc1aa3"
-    },
-    {
-      "path": "packages/livedata.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/packages/livedata.js?718526445deb4d9baacb6d92c551adea1d36c1e1",
-      "sourceMap": "packages/livedata.js.map",
-      "sourceMapUrl": "/packages/718526445deb4d9baacb6d92c551adea1d36c1e1.map",
-      "size": 1413,
-      "hash": "718526445deb4d9baacb6d92c551adea1d36c1e1"
+      "url": "/packages/callback-hook.js?2dd5338ef4585da6eadefd19681e01ae0a1cd8d7",
+      "sourceMap": "packages/callback-hook.js.map",
+      "sourceMapUrl": "/packages/2dd5338ef4585da6eadefd19681e01ae0a1cd8d7.map",
+      "size": 11284,
+      "hash": "2dd5338ef4585da6eadefd19681e01ae0a1cd8d7"
     },
     {
       "path": "packages/jquery.js",
@@ -297,6 +275,17 @@
       "sourceMapUrl": "/packages/dd8bac56f8fd3666d433d2285ae01e52597cc51a.map",
       "size": 1296513,
       "hash": "dd8bac56f8fd3666d433d2285ae01e52597cc51a"
+    },
+    {
+      "path": "packages/deps.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/deps.js?504589e1e9585dec8f9f6094e5a87b22de3783a1",
+      "sourceMap": "packages/deps.js.map",
+      "sourceMapUrl": "/packages/504589e1e9585dec8f9f6094e5a87b22de3783a1.map",
+      "size": 1442,
+      "hash": "504589e1e9585dec8f9f6094e5a87b22de3783a1"
     },
     {
       "path": "packages/htmljs.js",
@@ -341,6 +330,94 @@
       "sourceMapUrl": "/packages/a5c324925e5f6e800a4c618d71caf2848b53bf51.map",
       "size": 436567,
       "hash": "a5c324925e5f6e800a4c618d71caf2848b53bf51"
+    },
+    {
+      "path": "packages/accounts-base.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/accounts-base.js?7c29db5c21a76726509bb6bb2a68a2b4b1ecf657",
+      "sourceMap": "packages/accounts-base.js.map",
+      "sourceMapUrl": "/packages/7c29db5c21a76726509bb6bb2a68a2b4b1ecf657.map",
+      "size": 113880,
+      "hash": "7c29db5c21a76726509bb6bb2a68a2b4b1ecf657"
+    },
+    {
+      "path": "packages/sha.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/sha.js?65ef52f7221944768bfc2049d6b7e163c8ae2615",
+      "sourceMap": "packages/sha.js.map",
+      "sourceMapUrl": "/packages/65ef52f7221944768bfc2049d6b7e163c8ae2615.map",
+      "size": 19584,
+      "hash": "65ef52f7221944768bfc2049d6b7e163c8ae2615"
+    },
+    {
+      "path": "packages/srp.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/srp.js?e2e28156e8c912d504a3586351c8a1119f664cfd",
+      "sourceMap": "packages/srp.js.map",
+      "sourceMapUrl": "/packages/e2e28156e8c912d504a3586351c8a1119f664cfd.map",
+      "size": 173470,
+      "hash": "e2e28156e8c912d504a3586351c8a1119f664cfd"
+    },
+    {
+      "path": "packages/accounts-password.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/accounts-password.js?3845cc71ad2dc1378b7d8cc4164a78359506dd40",
+      "sourceMap": "packages/accounts-password.js.map",
+      "sourceMapUrl": "/packages/3845cc71ad2dc1378b7d8cc4164a78359506dd40.map",
+      "size": 33170,
+      "hash": "3845cc71ad2dc1378b7d8cc4164a78359506dd40"
+    },
+    {
+      "path": "packages/webapp.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/webapp.js?e1be090051b82f046484dccc2de7d747e50c7328",
+      "sourceMap": "packages/webapp.js.map",
+      "sourceMapUrl": "/packages/e1be090051b82f046484dccc2de7d747e50c7328.map",
+      "size": 3106,
+      "hash": "e1be090051b82f046484dccc2de7d747e50c7328"
+    },
+    {
+      "path": "packages/reactive-dict.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/reactive-dict.js?1cb61826ceb23464171f17c2191c7e04a9b91508",
+      "sourceMap": "packages/reactive-dict.js.map",
+      "sourceMapUrl": "/packages/1cb61826ceb23464171f17c2191c7e04a9b91508.map",
+      "size": 21702,
+      "hash": "1cb61826ceb23464171f17c2191c7e04a9b91508"
+    },
+    {
+      "path": "packages/session.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/session.js?daf192a7244079d45db32a6fc26ebc3881fc1aa3",
+      "sourceMap": "packages/session.js.map",
+      "sourceMapUrl": "/packages/daf192a7244079d45db32a6fc26ebc3881fc1aa3.map",
+      "size": 6491,
+      "hash": "daf192a7244079d45db32a6fc26ebc3881fc1aa3"
+    },
+    {
+      "path": "packages/livedata.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/livedata.js?718526445deb4d9baacb6d92c551adea1d36c1e1",
+      "sourceMap": "packages/livedata.js.map",
+      "sourceMapUrl": "/packages/718526445deb4d9baacb6d92c551adea1d36c1e1.map",
+      "size": 1413,
+      "hash": "718526445deb4d9baacb6d92c551adea1d36c1e1"
     },
     {
       "path": "packages/ui.js",
@@ -391,9 +468,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/global-imports.js?ddfcd9be6cef3c8bb0263139937a05092e4a3fe9",
-      "size": 718,
-      "hash": "ddfcd9be6cef3c8bb0263139937a05092e4a3fe9"
+      "url": "/packages/global-imports.js?624b54846399e6e8ca0954ad8f283df192b7c1d1",
+      "size": 764,
+      "hash": "624b54846399e6e8ca0954ad8f283df192b7c1d1"
     },
     {
       "path": "app/template.new_leaderboard.js",
@@ -412,6 +489,17 @@
       "url": "/new_leaderboard.js?36b6dab352239241880f53438137c6a361f2a257",
       "size": 1505,
       "hash": "36b6dab352239241880f53438137c6a361f2a257"
+    },
+    {
+      "path": "packages/service-configuration.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/service-configuration.js?262da6fb1e9c97be84333c429c9a2929c80f8e3b",
+      "sourceMap": "packages/service-configuration.js.map",
+      "sourceMapUrl": "/packages/262da6fb1e9c97be84333c429c9a2929c80f8e3b.map",
+      "size": 5082,
+      "hash": "262da6fb1e9c97be84333c429c9a2929c80f8e3b"
     },
     {
       "path": "7c1740bc2244269d8c3bbb55b992b5844282dfa4.css",

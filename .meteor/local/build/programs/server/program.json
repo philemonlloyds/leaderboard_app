@@ -1,6 +1,6 @@
 {
   "format": "javascript-image-pre1",
-  "arch": "os",
+  "arch": "os.osx.x86_64",
   "load": [
     {
       "sourceMap": "packages/underscore.js.map",
@@ -207,6 +207,38 @@
       "path": "packages/meteor-platform.js"
     },
     {
+      "node_modules": "npm/npm-bcrypt/node_modules",
+      "sourceMap": "packages/npm-bcrypt.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/npm-bcrypt.js"
+    },
+    {
+      "sourceMap": "packages/accounts-base.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/accounts-base.js"
+    },
+    {
+      "sourceMap": "packages/sha.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/sha.js"
+    },
+    {
+      "sourceMap": "packages/srp.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/srp.js"
+    },
+    {
+      "node_modules": "npm/email/node_modules",
+      "sourceMap": "packages/email.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/email.js"
+    },
+    {
+      "sourceMap": "packages/accounts-password.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/accounts-password.js"
+    },
+    {
       "sourceMap": "packages/session.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/session.js"
@@ -221,6 +253,11 @@
     },
     {
       "path": "app/new_leaderboard.js"
+    },
+    {
+      "sourceMap": "packages/service-configuration.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/service-configuration.js"
     }
   ]
 }
