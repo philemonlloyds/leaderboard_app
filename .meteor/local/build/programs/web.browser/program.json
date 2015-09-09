@@ -400,18 +400,18 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/template.new_leaderboard.js?a9c3a806e3371cc14c0e8d6f86b73b7bf2ef19d7",
-      "size": 569,
-      "hash": "a9c3a806e3371cc14c0e8d6f86b73b7bf2ef19d7"
+      "url": "/template.new_leaderboard.js?323498a58f73c607facaca5ac633a26d244ff7da",
+      "size": 570,
+      "hash": "323498a58f73c607facaca5ac633a26d244ff7da"
     },
     {
       "path": "app/new_leaderboard.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/new_leaderboard.js?6ad49ed006287eedd4da9e77a715a36b73d64ecf",
-      "size": 147,
-      "hash": "6ad49ed006287eedd4da9e77a715a36b73d64ecf"
+      "url": "/new_leaderboard.js?380b648a5d89cafc0872db5ba853adb7cccb99e4",
+      "size": 175,
+      "hash": "380b648a5d89cafc0872db5ba853adb7cccb99e4"
     },
     {
       "path": "20ae2c8d51b2507244e598844414ecdec2615ce3.css",
@@ -428,7 +428,7 @@
       "path": "head.html",
       "where": "internal",
       "type": "head",
-      "hash": "4aff3a8485096dd06f0d9d5105a1810c154c6ce2"
+      "hash": "59d19a03c9b2fe3f17371cacf73cbaa7b332a978"
     }
   ]
 }
