@@ -13,6 +13,8 @@
 <!-- templates are used to create connection b/w user-interface and javascript code (application logic)-->
 
 <template name="leaderboard">
+  <input type="button" class="increment" value="Give 5 Points">
+  <input type="button" class="decrement" value="Take 5 Points">
   <ul>
     {{#each player}}
     <li class="player {{selectedClass}}">{{name}}:{{score}}</li>

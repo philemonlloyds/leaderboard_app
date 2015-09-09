@@ -18,6 +18,14 @@
     Template.leaderboard.events({
       'click .player':function(){
         Session.set('selectedPlayer',this._id);
+      },
+      'click .increment':function(){
+        var selectedPlayer = Session.get('selectedPlayer');
+        PlayersList.update(selectedPlayer,{$inc:{score: 5}});
+      },
+      'click .decrement':function(){
+        var selectedPlayer = Session.get('selectedPlayer');
+        PlayersList.update(selectedPlayer,{$inc:{score: -5}});
       }
     });
 }
