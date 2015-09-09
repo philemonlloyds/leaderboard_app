@@ -8,7 +8,7 @@ Meteor.startup(Template.body.renderToDocument);
 Template.__checkName("leaderboard");
 Template["leaderboard"] = new Template("Template.leaderboard", (function() {
   var view = this;
-  return [ HTML.Raw('<input type="button" class="increment" value="Give 5 Points">\n  <input type="button" class="decrement" value="Take 5 Points">\n  '), HTML.UL("\n    ", Blaze.Each(function() {
+  return [ Spacebars.include(view.lookupTemplate("addPlayerForm")), HTML.Raw('\n  <input type="button" class="increment" value="Give 5 Points">\n  <input type="button" class="decrement" value="Take 5 Points">\n  '), HTML.UL("\n    ", Blaze.Each(function() {
     return Spacebars.call(view.lookup("player"));
   }, function() {
     return [ "\n    ", HTML.LI({
@@ -23,10 +23,16 @@ Template["leaderboard"] = new Template("Template.leaderboard", (function() {
   }), "\n  "), "\n  ", Blaze.If(function() {
     return Spacebars.call(view.lookup("showSelectedPlayer"));
   }, function() {
-    return [ "\n", HTML.LI("Selected Player: ", Blaze.View("lookup:showSelectedPlayer.name", function() {
+    return [ "\n    ", HTML.LI("Selected Player: ", Blaze.View("lookup:showSelectedPlayer.name", function() {
       return Spacebars.mustache(Spacebars.dot(view.lookup("showSelectedPlayer"), "name"));
-    })), "\n" ];
+    })), "\n  " ];
   }) ];
+}));
+
+Template.__checkName("addPlayerForm");
+Template["addPlayerForm"] = new Template("Template.addPlayerForm", (function() {
+  var view = this;
+  return HTML.Raw('<form>\n      <input type="text" name="playerName">\n      <input type="submit" value="Add Player">\n  </form>');
 }));
 
 })();
