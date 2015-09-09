@@ -8,7 +8,19 @@ Meteor.startup(Template.body.renderToDocument);
 Template.__checkName("leaderboard");
 Template["leaderboard"] = new Template("Template.leaderboard", (function() {
   var view = this;
-  return "Hello World";
+  return HTML.UL("\n    ", Blaze.Each(function() {
+    return Spacebars.call(view.lookup("player"));
+  }, function() {
+    return [ "\n    ", HTML.LI({
+      "class": function() {
+        return [ "player ", Spacebars.mustache(view.lookup("selectedClass")) ];
+      }
+    }, Blaze.View("lookup:name", function() {
+      return Spacebars.mustache(view.lookup("name"));
+    }), ":", Blaze.View("lookup:score", function() {
+      return Spacebars.mustache(view.lookup("score"));
+    })), "\n    " ];
+  }), "\n  ");
 }));
 
 })();

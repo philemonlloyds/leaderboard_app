@@ -400,29 +400,29 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/template.new_leaderboard.js?323498a58f73c607facaca5ac633a26d244ff7da",
-      "size": 570,
-      "hash": "323498a58f73c607facaca5ac633a26d244ff7da"
+      "url": "/template.new_leaderboard.js?a45b0a45368a3f926ffe301a796fa01f822ebcfd",
+      "size": 1058,
+      "hash": "a45b0a45368a3f926ffe301a796fa01f822ebcfd"
     },
     {
       "path": "app/new_leaderboard.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/new_leaderboard.js?380b648a5d89cafc0872db5ba853adb7cccb99e4",
-      "size": 175,
-      "hash": "380b648a5d89cafc0872db5ba853adb7cccb99e4"
+      "url": "/new_leaderboard.js?c45e6e86114ef6c14aa90fa616a374b8210f0fd5",
+      "size": 639,
+      "hash": "c45e6e86114ef6c14aa90fa616a374b8210f0fd5"
     },
     {
-      "path": "20ae2c8d51b2507244e598844414ecdec2615ce3.css",
+      "path": "7c1740bc2244269d8c3bbb55b992b5844282dfa4.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/20ae2c8d51b2507244e598844414ecdec2615ce3.css",
-      "sourceMap": "20ae2c8d51b2507244e598844414ecdec2615ce3.css.map",
-      "sourceMapUrl": "/20ae2c8d51b2507244e598844414ecdec2615ce3.map",
-      "size": 30,
-      "hash": "20ae2c8d51b2507244e598844414ecdec2615ce3"
+      "url": "/7c1740bc2244269d8c3bbb55b992b5844282dfa4.css",
+      "sourceMap": "7c1740bc2244269d8c3bbb55b992b5844282dfa4.css.map",
+      "sourceMapUrl": "/7c1740bc2244269d8c3bbb55b992b5844282dfa4.map",
+      "size": 73,
+      "hash": "7c1740bc2244269d8c3bbb55b992b5844282dfa4"
     },
     {
       "path": "head.html",

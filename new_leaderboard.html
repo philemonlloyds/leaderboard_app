@@ -13,5 +13,10 @@
 <!-- templates are used to create connection b/w user-interface and javascript code (application logic)-->
 
 <template name="leaderboard">
-  Hello World
+  <ul>
+    {{#each player}}
+    <li class="player {{selectedClass}}">{{name}}:{{score}}</li>
+    {{/each}}
+  </ul>
+
 </template>
